@@ -13,6 +13,15 @@ When a native Chinese speaker learning Japanese encounters a Japanese-Chinese ho
   - **Scenario B**: After L3 learning (L3 baseline = 0.4, inhibition weight = 1.8)
 - **Key parameters**: activation baseline, decay rate (0.1), mutual inhibition strength (0.08)
 
+- ## Model Versions
+### v1 (reverse_transfer_model.py)
+Initial model with `inhibition_strength = 0.08`. Demonstrates that enhanced L3 inhibition suppresses L2 completely, revealing a collateral rebalancing effect in the multilingual lexicon.
+
+### v2 (reverse_transfer_model_v2.py)
+Refined model with `inhibition_strength = 0.04`. By reducing global competition intensity, L2 remains present longer, allowing clearer observation of the targeted L3→L1 inhibitory effect. The L1 curve drops noticeably faster in Scenario B, directly visualizing the reverse transfer mechanism.
+
+**Robustness Note**: The core finding (L1 suppression following L3 learning) holds across both parameter settings. The difference lies in whether L2 is fully suppressed (v1) or sustained (v2), both of which are theoretically plausible depending on L2 proficiency levels in real trilingual populations.
+
 ## Key Result
 The model shows that after L3 learning, the enhanced L3 node exerts stronger competitive inhibition on the L1 node. This computationally captures the mechanism behind the behavioral phenomenon: L3 lexical activation suppresses L1 processing, making homograph judgment more difficult.
 
@@ -31,4 +40,5 @@ SSCI Q1 First Author & Corresponding Author
 ## Future Directions
 - **Parameter Space Exploration**: Test the robustness of the reported effect by systematically varying inhibition strength (0.06–0.15) and L3 baseline (0.2–0.5). Preliminary manual testing suggests the core result—L1 suppression following L3 learning—is stable across a range of parameter values.
 - **Full Trilingual Dynamics**: Extend the model to include more realistic L2 dynamics, allowing simultaneous observation of L1, L2, and L3 competition without complete L2 suppression.
+- - **Empirical validation with real trilingual populations**, particularly comparing high-L2-proficiency and low-L2-proficiency groups to test differential predictions from v1 and v2.
 - **Learning Trajectory Simulation**: Replace the static "before/after" comparison with a dynamic learning mechanism that simulates gradual L3 acquisition over multiple time points.
