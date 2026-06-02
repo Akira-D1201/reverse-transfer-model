@@ -40,5 +40,5 @@ SSCI Q1 First Author & Corresponding Author
 ## Future Directions
 - **Parameter Space Exploration**: Test the robustness of the reported effect by systematically varying inhibition strength (0.06–0.15) and L3 baseline (0.2–0.5). Preliminary manual testing suggests the core result—L1 suppression following L3 learning—is stable across a range of parameter values.
 - **Full Trilingual Dynamics**: Extend the model to include more realistic L2 dynamics, allowing simultaneous observation of L1, L2, and L3 competition without complete L2 suppression.
-- - **Empirical validation with real trilingual populations**, particularly comparing high-L2-proficiency and low-L2-proficiency groups to test differential predictions from v1 and v2.
+-  **Empirical validation with real trilingual populations**, particularly comparing high-L2-proficiency and low-L2-proficiency groups to test differential predictions from v1 and v2.
 - **Learning Trajectory Simulation**: Replace the static "before/after" comparison with a dynamic learning mechanism that simulates gradual L3 acquisition over multiple time points.
