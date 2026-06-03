@@ -34,7 +34,7 @@ The model shows that after L3 learning, the enhanced L3 node exerts stronger com
 Dijkstra, T., & Van Heuven, W. J. B. (2002). The architecture of the bilingual word recognition system: From identification to decision. *Bilingualism: Language and Cognition*, 5(3), 175–197.
 
 ## Author
-[Wenjing DUAN] — Independent Researcher
+Wenjing DUAN — Independent Researcher
 SSCI  First Author & Corresponding Author
 
 ## Future Directions
