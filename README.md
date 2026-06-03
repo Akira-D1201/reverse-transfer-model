@@ -34,8 +34,8 @@ The model shows that after L3 learning, the enhanced L3 node exerts stronger com
 Dijkstra, T., & Van Heuven, W. J. B. (2002). The architecture of the bilingual word recognition system: From identification to decision. *Bilingualism: Language and Cognition*, 5(3), 175–197.
 
 ## Author
-[Your Name] — Independent Researcher
-SSCI Q1 First Author & Corresponding Author
+[Wenjing DUAN] — Independent Researcher
+SSCI  First Author & Corresponding Author
 
 ## Future Directions
 - **Parameter Space Exploration**: Test the robustness of the reported effect by systematically varying inhibition strength (0.06–0.15) and L3 baseline (0.2–0.5). Preliminary manual testing suggests the core result—L1 suppression following L3 learning—is stable across a range of parameter values.
